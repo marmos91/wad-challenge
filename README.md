@@ -10,7 +10,7 @@ The goal of the challenge is **decrypt** the following text:
 ```
 Decrypting it you will access the final stage of the challenge and light up the IoT device.
 
-You can use **any programming language** you prefer to complete the challenge.
+You can use **any programming language** you prefer to complete this stage.
 
 ## The algorithm
 The algorithm used to encyrpt the message was a block cipher with the following rules:
