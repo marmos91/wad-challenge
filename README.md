@@ -52,6 +52,8 @@ To complete the challenge you will need a **code** to send to the IoT device. Th
 ```java
 String code = encrypt(key, key);
 ```
+
+Also review the **arp protocol**. Trust me, you will find it useful 😉
 ### Questions?
 
 Feel free to ask any question, but do not expect always an answer 😉
