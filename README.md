@@ -1,6 +1,6 @@
 # WAD challenge
 
-**Well done!** If you are here it means you have passed stage 0 of the challenge. *NOTE: If you have landed here before completing stage 0, please go back to [it](url). You will need some info contained there*...
+**Well done!** If you are here it means you have passed stage 0 of the challenge. *NOTE: If you have landed here before completing stage 0, please go back to [http://wad-challenge.s3-website.eu-central-1.amazonaws.com/](http://wad-challenge.s3-website.eu-central-1.amazonaws.com/). You will need some info contained there*...
 
 ## Introduction
 The goal of the challenge is **decrypt** the following text:
