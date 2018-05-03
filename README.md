@@ -14,7 +14,7 @@ You can use **any programming language** to complete this stage.
 ## The algorithm
 The algorithm used to encyrpt the message was a block cipher with the following rules:
 
-1. The alphabet is restricted between ascii codes 32 ("`space`") and 125 ("`}`") included. If you are not familiar with ASCII give a look at [http://www.asciitable.com/](http://www.asciitable.com/) and [https://en.wikipedia.org/wiki/ASCII](https://en.wikipedia.org/wiki/ASCII)
+1. The alphabet is restricted between ascii codes 33 ("`!`") and 125 ("`}`") included. If you are not familiar with ASCII give a look at [http://www.asciitable.com/](http://www.asciitable.com/) and [https://en.wikipedia.org/wiki/ASCII](https://en.wikipedia.org/wiki/ASCII)
 2. The algorithm encryption and decryption processes expect a key in the form of a string and a message (also a string). In pseudocode:
 
 ```java
@@ -34,7 +34,7 @@ Here are the *encryption steps*:
 - Each chunk is **reversed** (eg. `asdfg` --> `gfdsa`)
 - For each chunk:
     - Each character is shifted upwards by `n` positions where `n` is the sum of the ASCII decimal codes of the encryption key
-    - If the selected code exceeds the alphabet's length it must be reassigned from the alphabet start (have you have ever heard of modulo operator? 🤓)
+    - If the selected code exceeds the alphabet's length it must be reassigned from the alphabet start (e.g using the modulo operator 🤓)
 - After the operation each chunk has to be **reversed back again**
 - Every `key.size` chunks, a new line is added in the output
 
@@ -49,11 +49,12 @@ The decoded message will contain an URL. You will have to perform an HTTP reques
 
 ## Something missing?
 
-Do you still need the encryption/decryption key? Have you deeply inspected the first stage's code? 🤓
+Do you still need the encryption/decryption key? Have you deeply *inspected* the first stage's code? 🤓
 
 ## Bad news: that was not all...
 
 Also review the **arp protocol**. Do some research on the network on how to obtain an IP address from a physical Mac Address. Trust me, you will find it useful 😉
+Also, do you know how to make an HTTP request right?
 
 ### Questions?
 
