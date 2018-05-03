@@ -5,8 +5,8 @@
 ## Introduction
 The goal of the challenge is **decrypt** the following text:
 ```
--;BBT:ED ;UT/EKT7 H;T9BEI; bbbT>JJF nccp<9n9 fn:;nghn hfnk7rng dgdcM?DD
-;Hcp9E:; rcpOEKHT D7C;r
+&22.UJJ W$!U!MU "#UNOUO MUR|YUN KNKJ5', ,#0JW!- "#YJW7-
+30H,|+# Y
 ```
 Decrypting it you will access the final stage of the challenge and light up the IoT device.
 
