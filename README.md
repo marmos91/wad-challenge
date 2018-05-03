@@ -10,7 +10,7 @@ The goal of the challenge is **decrypt** the following text:
 ```
 Decrypting it you will access the final stage of the challenge and light up the IoT device.
 
-You can use **any programming language** you prefer to complete the challenge.
+You can use **any programming language** to complete this stage.
 
 ## The algorithm
 The algorithm used to encyrpt the message was a block cipher with the following rules:
@@ -52,6 +52,8 @@ To complete the challenge you will need a **code** to send to the IoT device. Th
 ```java
 String code = encrypt(key, key);
 ```
+
+Also review the **arp protocol**. Trust me, you will find it useful 😉
 ### Questions?
 
 Feel free to ask any question, but do not expect always an answer 😉
