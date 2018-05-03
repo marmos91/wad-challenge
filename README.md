@@ -47,10 +47,6 @@ The decoded message will contain an URL. You will have to perform an HTTP reques
 - **A code**: this will be the **encryption key itself encrypted with the algorithm above** (so you have to also implement the encryption part to succeed).
 - **Your name**: it will be displayed on the LCD of the challenge's device.
 
-```java
-String code = encrypt(key, key);
-```
-
 ## Something missing?
 
 Do you still need the encryption/decryption key? Have you deeply inspected the first stage's code? 🤓
