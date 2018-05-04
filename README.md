@@ -29,6 +29,12 @@ string decrypt(string key, string message)
 }
 ```
 
+### Some examples
+
+- `titanic` -> `2'2|,'!`
+- `minecraft` -> `+',#!0| $2`
+- `javascript` -> `(|4|1!0 '.2`
+
 Here are the *encryption steps*:
 - The message is **split in chunks of length** `key.size`
 - Each chunk is **reversed** (eg. `asdfg` --> `gfdsa`)
